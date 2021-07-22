@@ -1,16 +1,23 @@
-# flutter_scaffold_demo
+# Flutter基础脚手架搭建
+### 1. 大体目录层级介绍
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    ├─ android
+    ├─ ios
+    ├─ assets  静态资源
+    │	├─ images  图片资源
+    │	└─ video   视频资源
+    ├─ lib
+    │	├─ common_widgets  全局公用组件
+    │	├─ constant        定义常量类
+    │	├─ http            定义封装接口请求方法
+    │	├─ main.dart       程序主入口
+    │	└─ module          模块分类
+    │	    ├─ chat            聊天模块
+    │           ├─ model           实体类
+    │           ├─ pages           模块页面
+    │           ├─ repository      操作本地数据库
+    │           ├─ service         处理请求接口方法
+    │           ├─ widgets         该模块组件
+    │	├─ routes          路由封装配置
+    │___├─ utils           全局工具类
+        └─views            错误/404全局页面
